@@ -1,0 +1,49 @@
+/*if(Game.rand.nextInt(100) < 30) {
+		maskx = 8;
+		masky = 8;
+		maskw = 10;
+		maskh = 10;
+		*/
+		/*
+		
+		
+		if(this.calculateDistance(this.getX(), this.getY(), Game.player.getX(),Game.player.getY()) < 100) {
+		if(this.isColliddinWithPlayer() == false) {
+		if((int)x < Game.player.getX() && World.isFree((int)(x+speed),this.getY())
+				&& !isCollidding((int)(x+speed),this.getY())) {
+			x += speed;
+		}
+		else if((int)x > Game.player.getX() && World.isFree((int)(x-speed),this.getY())
+				&& !isCollidding((int)(x-speed),this.getY())) {
+			x -= speed;
+		}
+		if((int)y < Game.player.getY() && World.isFree(this.getX(),(int)(y+speed))
+				&& !isCollidding(this.getX(),(int)(y+speed))) {
+			y += speed;
+		}
+		else if((int)y > Game.player.getY() && World.isFree(this.getX(),(int)(y-speed))
+				&& !isCollidding(this.getX(),(int)(y-speed))) {
+			y -= speed;
+			}
+		
+		}else {
+			//Estamos colidindo
+			
+			if(Game.rand.nextInt(100) < 10);
+			//Sound.hurtEffect.play();
+			Game.player.life -= Game.rand.nextInt(3);
+			Game.player.isDamaged = true;
+			/*
+			 if(Game.player.life <= 0) {
+			 
+				//game over
+			System.exit(1);
+			}
+			 System.out.println("vida:" + Game.player.life);
+			 
+		
+		}
+		}else {
+		
+		}
+		
